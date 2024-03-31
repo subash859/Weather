@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-image: url('ab.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero-section {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    margin-bottom: 40px;
+  }
+  
+  button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #d3080c;
+  }
+  
+  .movie-section {
+    padding: 50px 20px;
+  }
+  
+  .movie-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .movies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .movie {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .movie img {
+    max-width: 200px;
+    border-radius: 5px;
+  }
+  
+  .movie h3 {
+    margin-top: 10px;
+  }
+  
+  .about-section {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
+    padding: 30px;
+    border: 2px solid #e50914; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    color: #fff; /* Change text color to white */
+    margin-top: 50px; /* Add some margin at the top */
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e50914; /* Change text color to Netflix red */
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
